@@ -1,5 +1,5 @@
 :root {
-  background-color: rgb(245, 245, 245);
+  background-color: rgb(196, 196, 196);
 }
 
 html,
@@ -8,4 +8,10 @@ body,
   margin: 0;
   height: 100%;
   font-family: Cantarell, Calibri, Arial;
+}
+
+.separator {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
 }

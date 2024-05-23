@@ -7,8 +7,7 @@ function App() {
   return (
     <>
       <Navigation />
-
-      <div className="meta-separator">
+      <div className="separator">
         <Article />
         <Feed />
       </div>

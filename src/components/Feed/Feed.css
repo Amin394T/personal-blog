@@ -1,0 +1,36 @@
+.feed {
+  padding: 20px;
+  flex-basis: 200px;
+  
+}
+
+@media screen and (max-width: 600px) {
+    .feed {
+      display: none;
+    }
+  }
+
+.feed-blog {
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.feed-blog-thumbnail {
+  width: 150px; /* Adjust size as needed */
+  height: auto;
+  margin-right: 10px;
+}
+
+.feed-blog-title {
+  font-size: 18px;
+  font-weight: bold;
+}
+
+.feed-blog-writer,
+.feed-blog-date {
+  font-style: italic;
+}
+
+.feed-blog-date {
+  margin-left: auto;
+}

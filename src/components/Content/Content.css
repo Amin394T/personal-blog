@@ -1,0 +1,36 @@
+.blog {
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 20px;
+  margin-bottom: 20px;
+  flex-grow: 1;
+}
+
+.blog-info {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 10px;
+}
+
+.blog-info-title {
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.blog-info-topic {
+  background-color: #f0f0f0;
+  padding: 5px 10px;
+  border-radius: 3px;
+}
+
+.blog-info-writer {
+  font-style: italic;
+}
+
+.blog-info-date {
+  font-style: italic;
+}
+
+.blog-text p {
+  margin: 10px 0;
+}
