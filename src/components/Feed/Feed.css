@@ -1,7 +1,9 @@
 .feed {
   padding: 20px;
   flex-basis: 200px;
-  
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;  
 }
 
 @media screen and (max-width: 600px) {

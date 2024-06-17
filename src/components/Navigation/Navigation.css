@@ -6,6 +6,7 @@
   background-color: #e8dfca;
   height: 50px;
   margin-bottom: 75px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
 
 .header-logo {
@@ -16,6 +17,7 @@
   margin-left: 35px;
   text-align: center;
   border-radius: 0 0 15px 15px;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;  
 }
 
 .header-topics {
@@ -41,4 +43,5 @@
   background-color: #f5efe6;
   border: solid 2px #4f6f52;
   color: #4f6f52;
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }

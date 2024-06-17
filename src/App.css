@@ -1,6 +1,6 @@
 :root {
-  background-color: #F5EFE6;
-  color: #242424;  
+  background-color: #f5efe6;
+  color: #242424;
 }
 
 html,
@@ -8,11 +8,13 @@ body,
 #root {
   margin: 0;
   height: 100%;
-  font-family: 'Comic Sans', Cantarell, Calibri, Arial;
+  font-family: Cairo, Cantarell, Calibri, Arial;
 }
 
 .separator {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
+  justify-content: space-around;
+  margin: 30px;
 }
