@@ -1,5 +1,6 @@
 :root {
-  background-color: rgb(196, 196, 196);
+  background-color: #F5EFE6;
+  color: #242424;  
 }
 
 html,
@@ -7,7 +8,7 @@ body,
 #root {
   margin: 0;
   height: 100%;
-  font-family: Cantarell, Calibri, Arial;
+  font-family: 'Comic Sans', Cantarell, Calibri, Arial;
 }
 
 .separator {
