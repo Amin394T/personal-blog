@@ -3,7 +3,7 @@
   align-items: center;
   justify-content: space-between;
   padding: 0px 20px;
-  background-color: #e8dfca;
+  background-color: #c0d8e1;
   height: 50px;
   margin-bottom: 75px;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
@@ -13,7 +13,7 @@
   width: 150px;
   height: 75px;
   align-self: baseline;
-  background-color: #4f6f52;
+  background-color: #003135;
   margin-left: 35px;
   text-align: center;
   border-radius: 0 0 15px 15px;
@@ -27,13 +27,16 @@
 
 .header-topics span {
   padding: 5px 10px;
-  margin: 0 10px;
+  margin: 0 15px;
   border-radius: 5px;
   cursor: pointer;
+  text-wrap: nowrap;
+  font-weight: 700;
+  font-size: 18px;
 }
 
 .header-topics span:hover {
-  background-color: #4f6f52;
+  background-color: #003135;
   color: #f5efe6;
 }
 
@@ -41,7 +44,26 @@
   padding: 5px 10px;
   border-radius: 10px;
   background-color: #f5efe6;
-  border: solid 2px #4f6f52;
-  color: #4f6f52;
+  border: solid 2px #003135;
+  color: #003135;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  width: 20%;
+}
+
+@media screen and (max-width: 1200px) {
+  .header-search {
+    display: none;
+  }
+  .header-topics {
+    margin-right: 30px;
+  }
+  .header-topics span {
+    margin: 0 5px;
+  }
+}
+
+@media screen and (max-width: 770px) {
+  .header-topics {
+    display: none;
+  }
 }

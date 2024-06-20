@@ -3,7 +3,7 @@ import "./Navigation.css";
 function Navigation() {
   return (  
     <div className="header">
-      <img className="header-logo" src="" alt="LOGO" />
+      <img className="header-logo" src="https://placehold.co/600x400" alt="LOGO" />
 
       <div className="header-topics">
         <span>Topic 1</span>

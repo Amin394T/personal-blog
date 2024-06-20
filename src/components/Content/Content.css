@@ -2,8 +2,7 @@
   border: 1px solid #ccc;
   border-radius: 5px;
   padding: 20px;
-  margin-bottom: 20px;
-  width: 720px;
+  margin: 20px;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
 
@@ -25,7 +24,7 @@
 }
 
 .blog-info-topic {
-  background-color: #4f6f52;
+  background-color: #003135;
   padding: 1px 5px;
   border-radius: 5px;
   color: #f5efe6;
@@ -38,4 +37,5 @@
 
 .blog-text p {
   margin: 10px 0;
+  text-align: justify;
 }
