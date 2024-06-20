@@ -1,36 +1,43 @@
 .feed {
-  padding: 20px;
-  flex-basis: 200px;
-  border: 1px solid #ccc;
-  border-radius: 5px;
-  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;  
+  margin: 20px;
+  height: fit-content;
 }
 
-@media screen and (max-width: 600px) {
-    .feed {
-      display: none;
-    }
-  }
-
 .feed-blog {
-  align-items: center;
-  margin-bottom: 20px;
+  margin-bottom: 15px;
+  width: 300px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  padding: 10px;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  text-wrap: nowrap;
+  background-color: #c0d8e1;
 }
 
 .feed-blog-thumbnail {
-  width: 150px; /* Adjust size as needed */
+  width: 150px;
   height: auto;
   margin-right: 10px;
+  grid-area: 1 / 1 / 4 / 2;
 }
 
 .feed-blog-title {
   font-size: 18px;
   font-weight: bold;
+  grid-area: 1 / 2 / 2 / 3;
 }
 
-.feed-blog-writer,
+.feed-blog-writer {
+  font-style: italic;
+  grid-area: 2 / 2 / 3 / 3;
+}
+
 .feed-blog-date {
   font-style: italic;
+  grid-area: 3 / 2 / 4 / 3;
+  text-align: end;
+  width: 135px;
 }
 
 .feed-blog-date {
