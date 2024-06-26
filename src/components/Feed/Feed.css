@@ -1,6 +1,10 @@
 .feed {
   margin: 20px;
   height: fit-content;
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
 .feed-blog {
@@ -23,7 +27,7 @@
 }
 
 .feed-blog-title {
-  font-size: 18px;
+  font-size: 19px;
   font-weight: bold;
   grid-area: 1 / 2 / 2 / 3;
 }

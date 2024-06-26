@@ -10,14 +10,14 @@
 }
 
 .header-logo {
-  width: 150px;
-  height: 75px;
+  width: 160px;
+  height: 80px;
   align-self: baseline;
   background-color: #003135;
   margin-left: 35px;
   text-align: center;
   border-radius: 0 0 15px 15px;
-  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;  
+  box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
 }
 
 .header-topics {
@@ -26,13 +26,13 @@
 }
 
 .header-topics span {
-  padding: 5px 10px;
+  padding: 0 10px;
   margin: 0 15px;
   border-radius: 5px;
   cursor: pointer;
   text-wrap: nowrap;
   font-weight: 700;
-  font-size: 18px;
+  font-size: 20px;
 }
 
 .header-topics span:hover {
@@ -48,22 +48,17 @@
   color: #003135;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
   width: 20%;
+  height: 20px;
 }
 
-@media screen and (max-width: 1200px) {
+@media screen and (max-width: 1150px) {
+  .header-topics {
+    display: none;
+  }
   .header-search {
-    display: none;
+    width: 30%;
   }
-  .header-topics {
-    margin-right: 30px;
-  }
-  .header-topics span {
-    margin: 0 5px;
-  }
-}
-
-@media screen and (max-width: 770px) {
-  .header-topics {
-    display: none;
+  .header-logo {
+    margin-left: 5px;
   }
 }
