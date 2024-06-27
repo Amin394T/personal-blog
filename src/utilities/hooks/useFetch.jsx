@@ -1,5 +1,4 @@
 import { useState, useEffect } from "react";
-import { marked } from "marked";
 
 function useFetch(url) {
   const [data, setData] = useState(null);
@@ -9,8 +8,7 @@ function useFetch(url) {
   let fetchData = async () => {
     try {
       const response = await fetch(url);
-      const markdown = await response.text();
-      const data = marked(markdown);
+      const data = await response.text();
       setData(data);
     } catch (error) {
       console.log(error);
