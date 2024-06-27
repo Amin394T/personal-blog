@@ -7,17 +7,22 @@ function Blog() {
 
   if (loading) return <div className="loadingSpinner">Loading ...</div>;
 
-  const pattern = /---([\s\S]+)---/;
-  const blogHead = data.match(pattern)[1].json();
-  const blogBody = data.replace(data.match(pattern)[0], "");
-console.log(blogHead)
+  const patternHead = /---([\s\S]+)---/;
+  const patternInfo = /:(.*?[^:])?(?=$|\n)/g;
+
+  const blogHead = data.match(patternHead)[1];
+  const blogBody = data.replace(data.match(patternHead)[0], "");
+  let blogInfo = blogHead.match(patternInfo);
+
+  console.log(blogInfo);
+
   return (
     <div className="blog">
       <div className="blog-info">
-        <div className="blog-info-title">This is a Placeholder Title</div>
-        <span className="blog-info-topic">Topic 3</span>
-        <span className="blog-info-writer">Writer 8</span>
-        <span className="blog-info-date">28/09/99</span>
+        <div className="blog-info-title">{blogInfo[0]}</div>
+        <span className="blog-info-topic">{blogInfo[1]}</span>
+        <span className="blog-info-writer">{blogInfo[2]}</span>
+        <span className="blog-info-date">{blogInfo[3]}</span>
       </div>
 
       <div className="blog-text">

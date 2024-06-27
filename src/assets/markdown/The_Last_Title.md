@@ -1,10 +1,9 @@
 ---
+title: The Last Title
+topic: Topic 6
 author: Writer 3
 date: 19/01/2023
-topic: Topic 6
 ---
-
-# The Last Title
 
 ## First Paragraph
 
@@ -24,4 +23,4 @@ Aliquam laoreet sapien sed enim sollicitudin, id dictum lectus porttitor. Nullam
 
 ## Third Paragraph
 
-Quisque aliquam vulputate diam, vel tincidunt nibh luctus tempus. Nam dignissim eros vel augue porttitor, sit amet auctor odio sagittis. Aenean sodales quam sit amet nunc aliquet, ut ultrices nibh porttitor. Vivamus imperdiet molestie euismod. Nunc auctor sem et semper mattis. Integer id cursus mi. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Ut aliquet lectus eros, eget pharetra nisi pulvinar suscipit. Nulla sodales nulla ac felis condimentum, sed mattis diam suscipit. Sed posuere et tortor ut porta. 
+Quisque aliquam vulputate diam, vel tincidunt nibh luctus tempus. Nam dignissim eros vel augue porttitor, sit amet auctor odio sagittis. Aenean sodales quam sit amet nunc aliquet, ut ultrices nibh porttitor. Vivamus imperdiet molestie euismod. Nunc auctor sem et semper mattis. Integer id cursus mi. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Ut aliquet lectus eros, eget pharetra nisi pulvinar suscipit. Nulla sodales nulla ac felis condimentum, sed mattis diam suscipit. Sed posuere et tortor ut porta.
