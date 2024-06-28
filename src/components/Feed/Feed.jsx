@@ -1,28 +1,16 @@
 import "./Feed.css";
+import blogs from "../../assets/markdown/.files_list"
 
-function Feed() {
+function Feed({setBlog}) {
   return (
     <div className="feed">
-      <div className="feed-blog">
-        <img className="feed-blog-thumbnail" src="https://placehold.co/600x400" alt="THUMBNAIL" />
-        <div className="feed-blog-title">Blog 1</div>
-        <div className="feed-blog-writer">Writer 5</div>
-        <div className="feed-blog-date">Yesterday</div>
-      </div>
-
-      <div className="feed-blog">
-        <img className="feed-blog-thumbnail" src="https://placehold.co/600x400" alt="THUMBNAIL" />
-        <div className="feed-blog-title">Blog 2</div>
-        <div className="feed-blog-writer">Writer 7</div>
-        <div className="feed-blog-date">9 Months Ago</div>
-      </div>
-
-      <div className="feed-blog">
-        <img className="feed-blog-thumbnail" src="https://placehold.co/600x400" alt="THUMBNAIL" />
-        <div className="feed-blog-title">Blog 3</div>
-        <div className="feed-blog-writer">Writer 5</div>
-        <div className="feed-blog-date">3 Years Ago</div>
-      </div>
+      {blogs.map((blog) => 
+        <div className="feed-blog" onClick={() => setBlog(blog.id)} key={blog.id} >
+          <img className="feed-blog-thumbnail" src="https://placehold.co/600x400" alt="THUMBNAIL" />
+          <div className="feed-blog-title">{blog.title}</div>
+          {/* <div className="feed-blog-topic">{blog.topic}</div> */}
+        </div>
+      )}
     </div>
   );
 }

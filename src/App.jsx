@@ -8,7 +8,6 @@ import { useState } from "react";
 function App() {
   const [currentBlog, setCurrentBlog] = useState(0);
   const blogData = blogs[currentBlog];
-  console.log(currentBlog);
   return (
     <>
       <Navigation />
