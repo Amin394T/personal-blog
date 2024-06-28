@@ -13,9 +13,9 @@
 }
 
 .blog-info-title {
-  font-size: 32px;
   font-weight: bold;
   flex-basis: 100%;
+  margin: 15px 0;
 }
 
 .blog-info span {
@@ -30,7 +30,7 @@
   color: #f5efe6;
 }
 
-.blog-info-writer,
+.blog-info-author,
 .blog-info-date {
   font-style: italic;
 }
