@@ -18,11 +18,12 @@
   text-align: center;
   border-radius: 0 0 15px 15px;
   box-shadow: rgba(0, 0, 0, 0.16) 0px 1px 4px;
+  cursor: pointer;
 }
 
 .header-topics span {
   padding: 0 10px;
-  margin: 0 15px;
+  margin: 0 10px;
   border-radius: 5px;
   cursor: pointer;
   text-wrap: nowrap;
@@ -46,7 +47,7 @@
   height: 20px;
 }
 
-@media screen and (max-width: 1150px) {
+@media screen and (max-width: 1000px) {
   .header {
     height: 40px;
   }

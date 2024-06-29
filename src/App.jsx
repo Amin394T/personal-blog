@@ -7,13 +7,15 @@ import { useState } from "react";
 
 function App() {
   const [currentBlog, setCurrentBlog] = useState(0);
+  const [contentDisplay, setContentDisplay] = useState(false);
   const blogData = blogs[currentBlog];
+
   return (
     <>
-      <Navigation />
+      <Navigation setDisplay={setContentDisplay} />
       <div className="separator">
-        <Content blogData={blogData} />
-        <Feed setBlog={setCurrentBlog} />
+        {contentDisplay && <Content blogData={blogData} />}
+        <Feed setBlog={setCurrentBlog} setDisplay={setContentDisplay} />
       </div>
     </>
   );
