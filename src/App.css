@@ -16,7 +16,6 @@ body,
 .separator {
   display: flex;
   justify-content: center;
-  margin: 30px;
   flex-wrap: wrap;
 }
 
@@ -24,5 +23,6 @@ body,
   .separator {
     flex-wrap: nowrap;
     justify-content: space-between;
+    margin: 30px;
   }
 }

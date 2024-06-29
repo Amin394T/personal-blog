@@ -47,13 +47,21 @@
 }
 
 @media screen and (max-width: 1150px) {
+  .header {
+    height: 40px;
+  }
   .header-topics {
     display: none;
   }
   .header-search {
-    width: 30%;
+    width: 35%;
+    height: 15px;
   }
   .header-logo {
     margin-left: 5px;
+  }
+  .header-logo {
+    width: 120px;
+    height: 60px;
   }
 }
