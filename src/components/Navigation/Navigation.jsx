@@ -3,7 +3,7 @@ import "./Navigation.css";
 function Navigation() {
   return (  
     <div className="header">
-      <img className="header-logo" src="https://placehold.co/600x400" alt="LOGO" />
+      <img className="header-logo" src="src/assets/images/.logo.png" alt="LOGO" />
 
       <div className="header-topics">
         <span>Topic 1</span>
@@ -14,7 +14,7 @@ function Navigation() {
         <span>Topic 6</span>
       </div>
 
-      <input className="header-search" type="text" placeholder=" Search ..." />
+      <input className="header-search" type="text" placeholder=" 🔍  Search ..." />
     </div>
   );
 }

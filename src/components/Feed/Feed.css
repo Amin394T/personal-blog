@@ -2,22 +2,21 @@
   margin: 20px;
   height: fit-content;
   display: flex;
-  gap: 20px;
+  gap: 30px;
   flex-wrap: wrap;
   justify-content: center;
-  cursor: pointer;
 }
 
 .feed-blog {
-  margin-bottom: 15px;
   border: 1px solid #ccc;
   border-radius: 5px;
-  justify-content: center;
-  background-color: #c0d8e1;
+  background-color: #c2cbd2;
+  cursor: pointer;
+  width: 230px;
 }
 
 .feed-blog-thumbnail {
-  width: 200px;
+  width: 230px;
 }
 
 .feed-blog-title {

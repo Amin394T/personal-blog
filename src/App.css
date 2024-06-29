@@ -1,6 +1,6 @@
-:root {
-  background-color: #f5efe6;
-  color: #003135;
+@font-face {
+  font-family: "Cairo";
+  src: url("src/assets/Cairo-VariableFont.ttf") format("truetype");
 }
 
 html,
@@ -8,7 +8,9 @@ body,
 #root {
   margin: 0;
   height: 100%;
-  font-family: Cairo, Cantarell, Calibri, Arial;
+  font-family: Cairo, sans-serif;
+  background-color: #f5efe6;
+  color: #003135;
 }
 
 .separator {

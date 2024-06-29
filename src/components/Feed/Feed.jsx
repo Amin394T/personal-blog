@@ -6,7 +6,7 @@ function Feed({setBlog}) {
     <div className="feed">
       {blogs.map((blog) => 
         <div className="feed-blog" onClick={() => setBlog(blog.id)} key={blog.id} >
-          <img className="feed-blog-thumbnail" src="https://placehold.co/600x400" alt="THUMBNAIL" />
+          <img className="feed-blog-thumbnail" src={"src/assets/images/" + (blog.path || ".placeholder") + ".png"} />
           <div className="feed-blog-title">{blog.title}</div>
           {/* <div className="feed-blog-topic">{blog.topic}</div> */}
         </div>
