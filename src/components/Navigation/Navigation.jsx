@@ -1,17 +1,15 @@
 import "./Navigation.css";
+import { topics } from "../../assets/topics.js";
 
-function Navigation({ setBlogDisplay }) {
+function Navigation({ setBlogDisplay, setSelectedTopic, selectedTopic }) {
   return (
     <div className="header">
-      <img className="header-logo" src="src/assets/images/.logo.png" onClick={() => setBlogDisplay(false)} />
+      <img className="header-logo" src="src/assets/images/.logo.png" onClick={() => { setSelectedTopic(""); setBlogDisplay(false);}} />
 
       <div className="header-topics">
-        <span>Topic 1</span>
-        <span>Topic 2</span>
-        <span>Topic 3</span>
-        <span>Topic 4</span>
-        <span>Topic 5</span>
-        <span>Topic 6</span>
+        {topics.map((topic, index) => (
+          <span className={selectedTopic == topic ? 'selected-topic' : ''} key={index} onClick={() => { setSelectedTopic(topic); setBlogDisplay(false);}}>{topic}</span>
+        ))}
       </div>
 
       <input className="header-search" type="text" placeholder=" 🔍  Search ..." />

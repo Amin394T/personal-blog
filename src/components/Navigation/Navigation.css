@@ -31,7 +31,8 @@
   font-size: 20px;
 }
 
-.header-topics span:hover {
+.header-topics span:hover,
+.selected-topic {
   background-color: #003135;
   color: #f5efe6;
 }
