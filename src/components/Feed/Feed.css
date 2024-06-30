@@ -13,6 +13,7 @@
   background-color: #c2cbd2;
   cursor: pointer;
   width: 230px;
+  position: relative;
 }
 
 .feed-blog-thumbnail {
@@ -24,6 +25,18 @@
   font-weight: bold;
   padding-bottom: 5px;
   text-align: center;
+}
+
+.feed-blog-topic {
+  background-color: #003135;
+  padding: 0 5px;
+  border-radius: 5px 0 0 5px;
+  color: #f5efe6;
+  position: absolute;
+  right: -1px;
+  top: 15px;
+  font-size: 12px;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
 @media screen and (max-width: 1100px) {

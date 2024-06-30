@@ -1,9 +1,9 @@
 import "./Navigation.css";
 
-function Navigation({ setDisplay }) {
+function Navigation({ setBlogDisplay }) {
   return (
     <div className="header">
-      <img className="header-logo" src="src/assets/images/.logo.png" onClick={() => setDisplay(false)} />
+      <img className="header-logo" src="src/assets/images/.logo.png" onClick={() => setBlogDisplay(false)} />
 
       <div className="header-topics">
         <span>Topic 1</span>
