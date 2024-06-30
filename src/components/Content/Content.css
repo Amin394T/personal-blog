@@ -42,7 +42,7 @@
   line-height: 1.7;
 }
 
-@media screen and (max-width: 1000px) {
+@media screen and (max-width: 1100px) {
   .blog {
     margin: 10px;
   }
@@ -54,6 +54,6 @@
     font-size: 12px;
   }
   .blog-text p {
-    font-size: 14px;
+    font-size: 15px;
   }
 }
